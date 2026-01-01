@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String playerName = scanner.nextLine();
 
-        Player p = new Player(playerName, 100, 10, 10, false, false);
+        Entity p = new Player(playerName, 100, 10, 10);
         p.printStatus();
 
         }

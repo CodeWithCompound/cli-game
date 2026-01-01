@@ -10,4 +10,7 @@ public class Player extends Entity {
     public void meditate() {
         meditationBuff = true;
     }
+    public void shiled() {
+        shieldingBuff = true;
+    }
 }
